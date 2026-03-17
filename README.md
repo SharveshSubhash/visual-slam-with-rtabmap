@@ -17,7 +17,7 @@ This repository contains a decoupled, hardware-accelerated Visual SLAM and 3D ma
 ```bash
 export ISAAC_ROS_WS=~/workspaces/isaac_ros-dev
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common
-./scripts/run_dev.sh```
+./scripts/run_dev.sh ```
 
 ## 2. Launch the Pipeline (Requires 3 Terminals)
 ### Terminal 1: Camera Node (Forcing Hardware Synchronization)
