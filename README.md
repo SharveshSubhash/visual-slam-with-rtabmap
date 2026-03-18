@@ -30,7 +30,7 @@ ros2 launch realsense2_camera rs_launch.py enable_infra1:=true enable_infra2:=tr
 ros2 launch isaac_ros_visual_slam d415_vslam_subscriber.launch.py
 ```
 
-### Terminal 3: RTAB-Map
+### Terminal 3 (Option 1): RTAB-Map
 ```bash
 ros2 launch rtabmap_launch rtabmap.launch.py \
   rtabmap_args:="--delete_db_on_start" \
@@ -44,7 +44,7 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
   qos:=2
 ```
 
-### Terminal 4: Rviz2 and RTAB-Map
+### Terminal 3(Option 2): Unified Rviz2 and RTAB-Map
 ```bash
 ros2 launch rtabmap_launch rtabmap.launch.py \
   rtabmap_args:="--delete_db_on_start" \
