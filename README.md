@@ -1,4 +1,4 @@
-# Semantic SLAM Architecture: Isaac ROS & Intel RealSense D415
+# Semantic SLAM Architecture: ROS2, Isaac ROS & Intel RealSense D415
 
 This repository contains a decoupled, hardware-accelerated Visual SLAM and 3D mapping pipeline built for ROS 2 Humble. It bridges an Intel RealSense D415 RGB-D camera with NVIDIA's hardware-accelerated cuVSLAM (TensorRT) and RTAB-Map for spatial memory.
 
