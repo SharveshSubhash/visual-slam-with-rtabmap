@@ -44,3 +44,18 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
   qos:=2
 ```
 
+### Terminal 4: Rviz2 and RTAB-Map
+```bash
+ros2 launch rtabmap_launch rtabmap.launch.py \
+  rtabmap_args:="--delete_db_on_start" \
+  rgb_topic:=/camera/camera/color/image_raw \
+  depth_topic:=/camera/camera/aligned_depth_to_color/image_raw \
+  camera_info_topic:=/camera/camera/color/camera_info \
+  odom_topic:=/visual_slam/tracking/odometry \
+  visual_odometry:=false \
+  frame_id:=camera_link \
+  approx_sync:=true \
+  qos:=2 \
+  rtabmapviz:=false \
+  rviz:=true
+```
